@@ -1,0 +1,20 @@
+PODS:
+  - AnimatableReload (0.2.0)
+  - STTabbar (0.1.0)
+
+DEPENDENCIES:
+  - AnimatableReload
+  - STTabbar
+
+SPEC REPOS:
+  trunk:
+    - AnimatableReload
+    - STTabbar
+
+SPEC CHECKSUMS:
+  AnimatableReload: 9576d3019bfb103f76b5f37fa6f8915bd8307527
+  STTabbar: fe93da755010233b348b2d0147c43bb1bef290fa
+
+PODFILE CHECKSUM: b870319d13214014615f5fc299a3b2e831ddb2bd
+
+COCOAPODS: 1.10.1

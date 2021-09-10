@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="EventCell" id="gTV-IL-0wX" customClass="EventCell" customModule="Grand_Technology" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="173" height="231"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="173" height="231"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZPc-3E-riE">
+                        <rect key="frame" x="10" y="10" width="153" height="211"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Epic-Games-anuncia-el-nuevo-Fortnite-3-Squeaker-RatKid-Edition" translatesAutoresizingMaskIntoConstraints="NO" id="Snf-ee-rPH">
+                                <rect key="frame" x="0.0" y="0.0" width="153" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="GB3-Nr-Tm4"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiusView">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="hdO-6X-P6C">
+                                <rect key="frame" x="5" y="165" width="143" height="41"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Main title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JO3-mT-yep">
+                                        <rect key="frame" x="0.0" y="0.0" width="143" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sub Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jfm-jh-Ux2">
+                                        <rect key="frame" x="0.0" y="20.5" width="143" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGray5Color"/>
+                        <constraints>
+                            <constraint firstItem="Snf-ee-rPH" firstAttribute="top" secondItem="ZPc-3E-riE" secondAttribute="top" id="17L-Bj-qIz"/>
+                            <constraint firstAttribute="bottom" secondItem="hdO-6X-P6C" secondAttribute="bottom" constant="5" id="Qow-F0-sCz"/>
+                            <constraint firstAttribute="trailing" secondItem="hdO-6X-P6C" secondAttribute="trailing" constant="5" id="U8i-fT-x3M"/>
+                            <constraint firstItem="hdO-6X-P6C" firstAttribute="leading" secondItem="ZPc-3E-riE" secondAttribute="leading" constant="5" id="b8X-id-9s7"/>
+                            <constraint firstAttribute="trailing" secondItem="Snf-ee-rPH" secondAttribute="trailing" id="oiE-kd-lMZ"/>
+                            <constraint firstItem="Snf-ee-rPH" firstAttribute="leading" secondItem="ZPc-3E-riE" secondAttribute="leading" id="wqQ-c7-40i"/>
+                            <constraint firstItem="hdO-6X-P6C" firstAttribute="top" secondItem="Snf-ee-rPH" secondAttribute="bottom" constant="5" id="xSi-If-z34"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiusView">
+                                <real key="value" value="6"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="ZPc-3E-riE" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="5wg-TR-YTB"/>
+                <constraint firstAttribute="trailing" secondItem="ZPc-3E-riE" secondAttribute="trailing" constant="10" id="9r5-Xk-gBU"/>
+                <constraint firstAttribute="bottom" secondItem="ZPc-3E-riE" secondAttribute="bottom" constant="10" id="OU9-3u-WHA"/>
+                <constraint firstItem="ZPc-3E-riE" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="pJG-jT-aCT"/>
+            </constraints>
+            <size key="customSize" width="173" height="231"/>
+            <connections>
+                <outlet property="imageEvent" destination="Snf-ee-rPH" id="EP0-Iv-jDl"/>
+                <outlet property="mainTitleLable" destination="JO3-mT-yep" id="PQq-KH-3X2"/>
+                <outlet property="subTitleLable" destination="jfm-jh-Ux2" id="Kln-jG-j2E"/>
+                <outlet property="viewCell" destination="ZPc-3E-riE" id="oM5-BV-Yae"/>
+            </connections>
+            <point key="canvasLocation" x="226.81159420289856" y="146.31696428571428"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Epic-Games-anuncia-el-nuevo-Fortnite-3-Squeaker-RatKid-Edition" width="829" height="466"/>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

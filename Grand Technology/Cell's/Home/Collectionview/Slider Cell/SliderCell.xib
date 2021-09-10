@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SliderCell" id="gTV-IL-0wX" customClass="SliderCell" customModule="Grand_Technology" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="336" height="90"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="336" height="90"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fortnite-1200x675-1-scaled" translatesAutoresizingMaskIntoConstraints="NO" id="3L1-AC-1Uc">
+                        <rect key="frame" x="0.0" y="0.0" width="336" height="90"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiusView">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="3L1-AC-1Uc" secondAttribute="trailing" id="DCk-fp-cIO"/>
+                <constraint firstItem="3L1-AC-1Uc" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Y4V-Sp-L5b"/>
+                <constraint firstAttribute="bottom" secondItem="3L1-AC-1Uc" secondAttribute="bottom" id="sbf-bC-PcA"/>
+                <constraint firstItem="3L1-AC-1Uc" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="teQ-DB-5bg"/>
+            </constraints>
+            <size key="customSize" width="336" height="90"/>
+            <connections>
+                <outlet property="imageSlider" destination="3L1-AC-1Uc" id="Ovw-u8-gxv"/>
+            </connections>
+            <point key="canvasLocation" x="314.49275362318843" y="117.1875"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="fortnite-1200x675-1-scaled" width="1024" height="576"/>
+    </resources>
+</document>
